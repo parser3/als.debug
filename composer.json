@@ -1,0 +1,51 @@
+{
+    "name": "als/debug",
+    "type": "library",
+    "description": "Debug Component.",
+    "keywords": ["als", "debug"],
+    "homepage": "https://github.com/parser3/als.debug",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Tokmakov",
+            "email": "vlalek@design.ru",
+            "role": "Developer"
+        },
+        {
+            "name": "Grigoriy Zhizhilkin",
+            "email": "gregory@design.ru",
+            "role": "Developer"
+        },
+        {
+            "name": "Leonid Knyazev",
+            "email": "leonid@knyazev.me",
+            "homepage": "https://knyazev.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/parser3/als.debug/issues"
+    },
+    "require-dev": {
+        "parser/composer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Als\\Debug\\": "src/"
+        },
+        "files": ["src/Debug.p"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Als\\Debug\\Test\\": "test/"
+        }
+    },
+    "extra": {
+        "platform": {
+            "parser": "3.4.4"
+        }
+    },
+    "repositories": [
+        { "type": "composer", "url": "https://packages.knyazev.me" }
+    ]
+}
