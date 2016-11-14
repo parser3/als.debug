@@ -46,6 +46,6 @@
         }
     },
     "repositories": [
-        { "type": "composer", "url": "https://packages.knyazev.me" }
+        { "type": "composer", "url": "https://pkg.parser.ru" }
     ]
 }
