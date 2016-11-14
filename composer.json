@@ -40,11 +40,6 @@
             "Als\\Debug\\Test\\": "test/"
         }
     },
-    "extra": {
-        "platform": {
-            "parser": "3.4.4"
-        }
-    },
     "repositories": [
         { "type": "composer", "url": "https://pkg.parser.ru" }
     ]
