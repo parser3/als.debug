@@ -30,15 +30,7 @@
         "parser/composer": "^1.0"
     },
     "autoload": {
-        "psr-4": {
-            "Als\\Debug\\": "src/"
-        },
         "files": ["src/Debug.p"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Als\\Debug\\Test\\": "test/"
-        }
     },
     "repositories": [
         { "type": "composer", "url": "https://pkg.parser.ru" }
